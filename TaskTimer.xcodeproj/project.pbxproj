@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45A66F8160E4A3300CF4CAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45A66F7160E4A3300CF4CAE /* UIKit.framework */; };
+		B45A66FA160E4A3300CF4CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45A66F9160E4A3300CF4CAE /* Foundation.framework */; };
+		B45A66FC160E4A3300CF4CAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45A66FB160E4A3300CF4CAE /* CoreGraphics.framework */; };
+		B45A6702160E4A3300CF4CAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B45A6700160E4A3300CF4CAE /* InfoPlist.strings */; };
+		B45A6704160E4A3300CF4CAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A6703160E4A3300CF4CAE /* main.m */; };
+		B45A6708160E4A3300CF4CAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A6707160E4A3300CF4CAE /* AppDelegate.m */; };
+		B45A670B160E4A3300CF4CAE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45A6709160E4A3300CF4CAE /* MainStoryboard.storyboard */; };
+		B45A670E160E4A3300CF4CAE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A670D160E4A3300CF4CAE /* MasterViewController.m */; };
+		B45A6719160E4BD200CF4CAE /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B45A6718160E4BD200CF4CAE /* CustomCell.m */; };
+		B45A671B160E507E00CF4CAE /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45A671A160E507E00CF4CAE /* CustomCell.xib */; };
+		B48B97D21618AD36009342B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B48B97D11618AD36009342B0 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B45A66F3160E4A3300CF4CAE /* TaskTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45A66F7160E4A3300CF4CAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B45A66F9160E4A3300CF4CAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B45A66FB160E4A3300CF4CAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B45A66FF160E4A3300CF4CAE /* TaskTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskTimer-Info.plist"; sourceTree = "<group>"; };
+		B45A6701160E4A3300CF4CAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B45A6703160E4A3300CF4CAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B45A6705160E4A3300CF4CAE /* TaskTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTimer-Prefix.pch"; sourceTree = "<group>"; };
+		B45A6706160E4A3300CF4CAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B45A6707160E4A3300CF4CAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B45A670A160E4A3300CF4CAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B45A670C160E4A3300CF4CAE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B45A670D160E4A3300CF4CAE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B45A6717160E4BD200CF4CAE /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		B45A6718160E4BD200CF4CAE /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		B45A671A160E507E00CF4CAE /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		B48B97D11618AD36009342B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B45A66F0160E4A3300CF4CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45A66F8160E4A3300CF4CAE /* UIKit.framework in Frameworks */,
+				B45A66FA160E4A3300CF4CAE /* Foundation.framework in Frameworks */,
+				B45A66FC160E4A3300CF4CAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B45A66E8160E4A3300CF4CAE = {
+			isa = PBXGroup;
+			children = (
+				B48B97D11618AD36009342B0 /* Default-568h@2x.png */,
+				B45A66FD160E4A3300CF4CAE /* TaskTimer */,
+				B45A66F6160E4A3300CF4CAE /* Frameworks */,
+				B45A66F4160E4A3300CF4CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B45A66F4160E4A3300CF4CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45A66F3160E4A3300CF4CAE /* TaskTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45A66F6160E4A3300CF4CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B45A66F7160E4A3300CF4CAE /* UIKit.framework */,
+				B45A66F9160E4A3300CF4CAE /* Foundation.framework */,
+				B45A66FB160E4A3300CF4CAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B45A66FD160E4A3300CF4CAE /* TaskTimer */ = {
+			isa = PBXGroup;
+			children = (
+				B45A6706160E4A3300CF4CAE /* AppDelegate.h */,
+				B45A6707160E4A3300CF4CAE /* AppDelegate.m */,
+				B45A6709160E4A3300CF4CAE /* MainStoryboard.storyboard */,
+				B45A6717160E4BD200CF4CAE /* CustomCell.h */,
+				B45A671A160E507E00CF4CAE /* CustomCell.xib */,
+				B45A6718160E4BD200CF4CAE /* CustomCell.m */,
+				B45A670C160E4A3300CF4CAE /* MasterViewController.h */,
+				B45A670D160E4A3300CF4CAE /* MasterViewController.m */,
+				B45A66FE160E4A3300CF4CAE /* Supporting Files */,
+			);
+			path = TaskTimer;
+			sourceTree = "<group>";
+		};
+		B45A66FE160E4A3300CF4CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45A66FF160E4A3300CF4CAE /* TaskTimer-Info.plist */,
+				B45A6700160E4A3300CF4CAE /* InfoPlist.strings */,
+				B45A6703160E4A3300CF4CAE /* main.m */,
+				B45A6705160E4A3300CF4CAE /* TaskTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B45A66F2160E4A3300CF4CAE /* TaskTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45A6714160E4A3300CF4CAE /* Build configuration list for PBXNativeTarget "TaskTimer" */;
+			buildPhases = (
+				B45A66EF160E4A3300CF4CAE /* Sources */,
+				B45A66F0160E4A3300CF4CAE /* Frameworks */,
+				B45A66F1160E4A3300CF4CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskTimer;
+			productName = TaskTimer;
+			productReference = B45A66F3160E4A3300CF4CAE /* TaskTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B45A66EA160E4A3300CF4CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rbelford;
+			};
+			buildConfigurationList = B45A66ED160E4A3300CF4CAE /* Build configuration list for PBXProject "TaskTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B45A66E8160E4A3300CF4CAE;
+			productRefGroup = B45A66F4160E4A3300CF4CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B45A66F2160E4A3300CF4CAE /* TaskTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B45A66F1160E4A3300CF4CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45A6702160E4A3300CF4CAE /* InfoPlist.strings in Resources */,
+				B45A670B160E4A3300CF4CAE /* MainStoryboard.storyboard in Resources */,
+				B45A671B160E507E00CF4CAE /* CustomCell.xib in Resources */,
+				B48B97D21618AD36009342B0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B45A66EF160E4A3300CF4CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45A6704160E4A3300CF4CAE /* main.m in Sources */,
+				B45A6708160E4A3300CF4CAE /* AppDelegate.m in Sources */,
+				B45A670E160E4A3300CF4CAE /* MasterViewController.m in Sources */,
+				B45A6719160E4BD200CF4CAE /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B45A6700160E4A3300CF4CAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45A6701160E4A3300CF4CAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B45A6709160E4A3300CF4CAE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45A670A160E4A3300CF4CAE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B45A6712160E4A3300CF4CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B45A6713160E4A3300CF4CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B45A6715160E4A3300CF4CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskTimer/TaskTimer-Prefix.pch";
+				INFOPLIST_FILE = "TaskTimer/TaskTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B45A6716160E4A3300CF4CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskTimer/TaskTimer-Prefix.pch";
+				INFOPLIST_FILE = "TaskTimer/TaskTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B45A66ED160E4A3300CF4CAE /* Build configuration list for PBXProject "TaskTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45A6712160E4A3300CF4CAE /* Debug */,
+				B45A6713160E4A3300CF4CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45A6714160E4A3300CF4CAE /* Build configuration list for PBXNativeTarget "TaskTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45A6715160E4A3300CF4CAE /* Debug */,
+				B45A6716160E4A3300CF4CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B45A66EA160E4A3300CF4CAE /* Project object */;
+}
